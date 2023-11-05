@@ -1,3 +1,5 @@
+from tkinter import *
+from math import *
 from tkinter import Tk, Button, Entry
 
 # Configuración ventana principal
@@ -27,4 +29,5 @@ boton_menos = Button(root, text="-", width=9, height=3, bg="deep sky blue", fg="
 boton_multiplicacion = Button(root, text="*",  width=9, height=3, bg="deep sky blue", fg="black", borderwidth=0, cursor="hand2").grid(row=3, column=3, padx=1, pady=1)
 boton_division = Button(root, text="/", width=9, height=3, bg="deep sky blue", fg="black", borderwidth=0, cursor="hand2").grid(row=4, column=3, padx=1, pady=1)
 
-root.mainloop()
+
+
