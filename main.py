@@ -18,6 +18,8 @@ pantalla.grid(row=0, column=0, columnspan=55, padx=1, pady=1)
 i = 0
 operadores = 0
 
+#A todo aquel que mire esto, lo encontre en un video de YouTube, pq la vdd, esta medio raro hacer eso (falta experiencia), se les quiere Oswaldo y David :')
+#profe lo quiero, le puse 5 en la evaluación de docente, pa´ que me reciba el prox semestre :D
 
 def obtenerNumeros(n):
     global i
@@ -45,7 +47,6 @@ def clear_pantalla():
 
 def calcularOperacion():
     global i
-
     ecuacion = pantalla.get()
 
     if i!=0:
